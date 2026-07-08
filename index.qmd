@@ -12,6 +12,15 @@ format:
 execute:
   echo: false
 ---
+::: {.hero}
+# 🌌 The Calculus of Neptune
+
+## A Mathematical Detective Story
+
+**Can mathematics discover a planet before anyone sees it?**
+
+*Neptune: the planet discovered with the tip of a pen.*
+:::
 
 ::: {.callout-note title="Abstract"}
 This paper retraces the mathematical journey that led to the discovery of Neptune in 1846. Starting from unexplained deviations in Uranus's orbit, we follow the steps astronomers took to quantify the discrepancy, describe planetary motion using parametric equations, and apply calculus to uncover the presence of an unseen world. Through differentiation, Taylor series, and differential equations, we show how mathematics transformed tiny observational anomalies into the prediction of a new planet.

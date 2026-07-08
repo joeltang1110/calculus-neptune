@@ -103,6 +103,7 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -142,18 +143,22 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
-  <li><a href="#the-mystery-begins" id="toc-the-mystery-begins" class="nav-link" data-scroll-target="#the-mystery-begins"><span class="header-section-number">2</span> The Mystery Begins</a></li>
-  <li><a href="#predicting-uranus" id="toc-predicting-uranus" class="nav-link" data-scroll-target="#predicting-uranus"><span class="header-section-number">3</span> Predicting Uranus</a></li>
-  <li><a href="#calculus-enters-the-story" id="toc-calculus-enters-the-story" class="nav-link" data-scroll-target="#calculus-enters-the-story"><span class="header-section-number">4</span> Calculus Enters the Story</a></li>
-  <li><a href="#a-small-perturbation" id="toc-a-small-perturbation" class="nav-link" data-scroll-target="#a-small-perturbation"><span class="header-section-number">5</span> A Small Perturbation</a></li>
-  <li><a href="#taylor-series-to-the-rescue" id="toc-taylor-series-to-the-rescue" class="nav-link" data-scroll-target="#taylor-series-to-the-rescue"><span class="header-section-number">6</span> Taylor Series to the Rescue</a></li>
-  <li><a href="#the-differential-equation" id="toc-the-differential-equation" class="nav-link" data-scroll-target="#the-differential-equation"><span class="header-section-number">7</span> The Differential Equation</a></li>
-  <li><a href="#finding-the-dominant-term" id="toc-finding-the-dominant-term" class="nav-link" data-scroll-target="#finding-the-dominant-term"><span class="header-section-number">8</span> Finding the Dominant Term</a></li>
-  <li><a href="#solving-for-the-perturbation" id="toc-solving-for-the-perturbation" class="nav-link" data-scroll-target="#solving-for-the-perturbation"><span class="header-section-number">9</span> Solving for the Perturbation</a></li>
-  <li><a href="#the-complete-model" id="toc-the-complete-model" class="nav-link" data-scroll-target="#the-complete-model"><span class="header-section-number">10</span> The Complete Model</a></li>
-  <li><a href="#the-discovery" id="toc-the-discovery" class="nav-link" data-scroll-target="#the-discovery"><span class="header-section-number">11</span> The Discovery</a></li>
-  <li><a href="#conclusion-the-power-of-calculus" id="toc-conclusion-the-power-of-calculus" class="nav-link" data-scroll-target="#conclusion-the-power-of-calculus"><span class="header-section-number">12</span> Conclusion: The Power of Calculus</a></li>
+  <li><a href="#the-calculus-of-neptune" id="toc-the-calculus-of-neptune" class="nav-link active" data-scroll-target="#the-calculus-of-neptune"><span class="header-section-number">1</span> 🌌 The Calculus of Neptune</a>
+  <ul class="collapse">
+  <li><a href="#a-mathematical-detective-story" id="toc-a-mathematical-detective-story" class="nav-link" data-scroll-target="#a-mathematical-detective-story"><span class="header-section-number">1.1</span> A Mathematical Detective Story</a></li>
+  </ul></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction"><span class="header-section-number">2</span> Introduction</a></li>
+  <li><a href="#the-mystery-begins" id="toc-the-mystery-begins" class="nav-link" data-scroll-target="#the-mystery-begins"><span class="header-section-number">3</span> The Mystery Begins</a></li>
+  <li><a href="#predicting-uranus" id="toc-predicting-uranus" class="nav-link" data-scroll-target="#predicting-uranus"><span class="header-section-number">4</span> Predicting Uranus</a></li>
+  <li><a href="#calculus-enters-the-story" id="toc-calculus-enters-the-story" class="nav-link" data-scroll-target="#calculus-enters-the-story"><span class="header-section-number">5</span> Calculus Enters the Story</a></li>
+  <li><a href="#a-small-perturbation" id="toc-a-small-perturbation" class="nav-link" data-scroll-target="#a-small-perturbation"><span class="header-section-number">6</span> A Small Perturbation</a></li>
+  <li><a href="#taylor-series-to-the-rescue" id="toc-taylor-series-to-the-rescue" class="nav-link" data-scroll-target="#taylor-series-to-the-rescue"><span class="header-section-number">7</span> Taylor Series to the Rescue</a></li>
+  <li><a href="#the-differential-equation" id="toc-the-differential-equation" class="nav-link" data-scroll-target="#the-differential-equation"><span class="header-section-number">8</span> The Differential Equation</a></li>
+  <li><a href="#finding-the-dominant-term" id="toc-finding-the-dominant-term" class="nav-link" data-scroll-target="#finding-the-dominant-term"><span class="header-section-number">9</span> Finding the Dominant Term</a></li>
+  <li><a href="#solving-for-the-perturbation" id="toc-solving-for-the-perturbation" class="nav-link" data-scroll-target="#solving-for-the-perturbation"><span class="header-section-number">10</span> Solving for the Perturbation</a></li>
+  <li><a href="#the-complete-model" id="toc-the-complete-model" class="nav-link" data-scroll-target="#the-complete-model"><span class="header-section-number">11</span> The Complete Model</a></li>
+  <li><a href="#the-discovery" id="toc-the-discovery" class="nav-link" data-scroll-target="#the-discovery"><span class="header-section-number">12</span> The Discovery</a></li>
+  <li><a href="#conclusion-the-power-of-calculus" id="toc-conclusion-the-power-of-calculus" class="nav-link" data-scroll-target="#conclusion-the-power-of-calculus"><span class="header-section-number">13</span> Conclusion: The Power of Calculus</a></li>
   </ul>
 </nav>
     </div>
@@ -185,6 +190,14 @@ window.Quarto = {
 </header>
 
 
+<section id="the-calculus-of-neptune" class="level1 hero" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> 🌌 The Calculus of Neptune</h1>
+<section id="a-mathematical-detective-story" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="a-mathematical-detective-story"><span class="header-section-number">1.1</span> A Mathematical Detective Story</h2>
+<p><strong>Can mathematics discover a planet before anyone sees it?</strong></p>
+<p><em>Neptune: the planet discovered with the tip of a pen.</em></p>
+</section>
+</section>
 <div class="callout callout-style-default callout-note callout-titled" title="Abstract">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -198,8 +211,8 @@ window.Quarto = {
 <p>This paper retraces the mathematical journey that led to the discovery of Neptune in 1846. Starting from unexplained deviations in Uranus’s orbit, we follow the steps astronomers took to quantify the discrepancy, describe planetary motion using parametric equations, and apply calculus to uncover the presence of an unseen world. Through differentiation, Taylor series, and differential equations, we show how mathematics transformed tiny observational anomalies into the prediction of a new planet.</p>
 </div>
 </div>
-<section id="introduction" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<section id="introduction" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Introduction</h1>
 <p>Imagine discovering an entirely new planet without ever seeing it through a telescope. It sounds impossible, yet this is exactly what happened in the nineteenth century. Long before anyone laid eyes on Neptune, mathematicians had already predicted its existence using nothing more than observations, Newton’s laws, and the power of calculus.</p>
 <p>The story began in 1781 when William Herschel discovered Uranus, the first planet ever found with a telescope. At first, astronomers believed that Newton’s law of universal gravitation could perfectly predict its orbit. However, as more observations were collected over the following decades, they noticed something unsettling: Uranus was never exactly where mathematics said it should be. The differences were tiny at first, but they became larger and more systematic with time. It was as if an invisible hand was gently pulling the planet away from its predicted path.</p>
 <p>By the 1820s, the French astronomer Alexis Bouvard had published tables predicting Uranus’ orbit. When repeated observations continued to disagree with his calculations, he proposed a bold idea: perhaps another, unknown planet beyond Uranus was disturbing its motion through gravity. This mysterious clue marked the beginning of one of the greatest mathematical investigations in the history of astronomy.</p>
@@ -210,8 +223,8 @@ window.Quarto = {
 <p>The story contains one final surprise. Historians later discovered that Galileo Galilei had actually observed Neptune in 1612 and 1613. Because the planet moved so slowly across the sky, he mistakenly recorded it as a fixed star. More than two centuries passed before mathematics revealed what the telescope alone had overlooked.</p>
 <p>Neptune is often called <strong>“the planet discovered with the tip of a pen”</strong> because it was the first planet whose existence was predicted before it was ever seen. By combining calculus, Newtonian mechanics, perturbation theory, and careful astronomical observations, scientists transformed tiny errors in Uranus’ orbit into convincing evidence of an entirely new world. This remarkable achievement showed that mathematics is not merely a language for describing the universe—it is also a powerful tool for uncovering the invisible.</p>
 </section>
-<section id="the-mystery-begins" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> The Mystery Begins</h1>
+<section id="the-mystery-begins" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> The Mystery Begins</h1>
 <p>In 1781, William Herschel discovered Uranus. It was the first planet ever found with a telescope, and astronomers were thrilled. But that excitement quickly turned to confusion.</p>
 <p>Uranus was not following its predicted path.</p>
 <p>Year after year, its actual position in the sky was slightly different from where Newton’s laws said it should be. The difference grew larger over time. By the 1820s, the French astronomer Alexis Bouvard threw up his hands and declared: “Either Newton’s laws are wrong, or something invisible is pulling on Uranus.”</p>
@@ -227,8 +240,8 @@ window.Quarto = {
 <p>The error was real, it was growing, and it followed a regular pattern. This was not a mistake in measurement. Something was pulling on Uranus. But what? And where was it?</p>
 <p>To answer that, astronomers first needed to know exactly where Uranus should be if nothing else was affecting it.</p>
 </section>
-<section id="predicting-uranus" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Predicting Uranus</h1>
+<section id="predicting-uranus" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Predicting Uranus</h1>
 <p>To prove something is wrong, you must first show what “right” looks like. Astronomers needed a way to calculate Uranus’s position at any time, assuming no unknown planet existed.</p>
 <p>For simplicity, Uranus’s slightly elliptical orbit is approximated as a circular orbit. Since its orbital eccentricity is relatively small (approximately 0.047), this approximation is sufficient for illustrating the calculus concepts used in this project. In this simplified model, the planet moves with constant angular velocity, so its angular position is given by</p>
 <p><span class="math display">\[
@@ -274,8 +287,8 @@ y = 19.19\sin(\pi/2) = 19.19 \text{ AU}
 <p>When they compared this predicted position with telescope observations, they found the two did not match. The difference was exactly the <span class="math inline">\(\Delta\phi\)</span> they had measured before. The predictions and observations diverged more and more each year.</p>
 <p>Something was definitely pulling Uranus off its expected path. But to find the puller, astronomers needed to know not just where Uranus was, but how fast it was moving and how that speed was changing. That meant velocity and acceleration. That meant calculus.</p>
 </section>
-<section id="calculus-enters-the-story" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Calculus Enters the Story</h1>
+<section id="calculus-enters-the-story" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Calculus Enters the Story</h1>
 <p>Newton’s second law says <span class="math inline">\(F = ma\)</span> — force equals mass times acceleration. To find the unknown force pulling on Uranus, astronomers needed acceleration. But they only had position.</p>
 <p>Calculus connects position to acceleration through differentiation. Velocity is the rate of change of position — the first derivative. Acceleration is the rate of change of velocity — the second derivative.</p>
 <p>Starting from the position equations:</p>
@@ -322,8 +335,8 @@ F_{\text{Sun}} = m_1 a
 <p>The extra force was real. It had to come from somewhere. And if it came from a planet, astronomers were now facing a three-body problem: Sun, Uranus, and the unknown planet. Three-body problems have no exact solution. No formula exists that gives the positions of all three bodies at all times.</p>
 <p>They needed another approach.</p>
 </section>
-<section id="a-small-perturbation" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> A Small Perturbation</h1>
+<section id="a-small-perturbation" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> A Small Perturbation</h1>
 <p>The general three-body problem has no known closed-form analytical solution because the bodies continuously influence one another through gravity. However, some special cases do admit exact solutions. But astronomers noticed something important: the unknown planet had to be much smaller than the Sun. Its gravitational pull on Uranus would be tiny compared to the Sun’s.</p>
 <p>This meant they could treat the unknown planet’s influence as a small perturbation — a tiny correction to the main orbit. Instead of solving the impossible three-body problem, they could start with the easy two-body problem (Sun and Uranus) and then add small corrections.</p>
 <p>To understand the effect mathematically, we introduce small perturbations around the circular orbit. The following perturbation model is a simplified mathematical representation inspired by modern perturbation theory. Although Adams and Le Verrier used more sophisticated celestial mechanics in their original calculations, this simplified model captures the essential calculus concepts needed to explain how small gravitational perturbations affect Uranus’s orbit.</p>
@@ -352,8 +365,8 @@ v = R_1 \times \Delta\phi = 19.19 \times 3.588\times10^{-4} = 6.884\times10^{-3}
 <p>The problem was now much simpler. Instead of finding the entire orbit, astronomers only needed to find the small corrections <span class="math inline">\(u\)</span> and <span class="math inline">\(v\)</span>. If they could find <span class="math inline">\(v\)</span>, they would know exactly how much the unknown planet was pulling Uranus off its predicted path.</p>
 <p>But to find <span class="math inline">\(u\)</span> and <span class="math inline">\(v\)</span>, they had to substitute this perturbed orbit into Newton’s law. And that’s where a new problem appeared.</p>
 </section>
-<section id="taylor-series-to-the-rescue" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> Taylor Series to the Rescue</h1>
+<section id="taylor-series-to-the-rescue" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Taylor Series to the Rescue</h1>
 <p>In the simplified perturbation model introduced in this report, substituting <span class="math inline">\(\rho = R + u\)</span> into Newton’s law of gravitation produces the inverse-square term</p>
 <p><span class="math display">\[
 \frac{1}{(R+u)^2}
@@ -406,8 +419,8 @@ f(x) = f(0) + f'(0)x + \frac{f''(0)}{2!}x^2 + \frac{f'''(0)}{3!}x^3 + \cdots
 <p><strong>Error:</strong> <span class="math inline">\(0.0027138 - 0.0027135 = 0.0000003\)</span>, which is less than 0.01%.</p>
 <p>This is the power of Taylor series: they turn hard nonlinear problems into easy linear ones with negligible error. And this was exactly what astronomers needed to move forward.</p>
 </section>
-<section id="the-differential-equation" class="level1" data-number="7">
-<h1 data-number="7"><span class="header-section-number">7</span> The Differential Equation</h1>
+<section id="the-differential-equation" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> The Differential Equation</h1>
 <p><strong>Coupled Linear Differential Equations</strong> A system of coupled ordinary differential equations (ODEs) involves multiple dependent variables whose derivatives depend on one another. In classical mechanics, a general second-order linear coupled system with two variables, <span class="math inline">\(u(t)\)</span> and <span class="math inline">\(v(t)\)</span>, takes the form:</p>
 <p><span class="math display">\[$
 \begin{aligned}
@@ -502,8 +515,8 @@ F_\phi = \ddot{v} + 2\omega_1\dot{u}
 <p>Here, <span class="math inline">\(F_r\)</span> and <span class="math inline">\(F_\phi\)</span> represent the gravitational pull from the unknown planet.</p>
 <p><strong>Step 6: Interpret the equations.</strong> - The first equation describes how the radial perturbation <span class="math inline">\(u\)</span> evolves. The term <span class="math inline">\(-3\omega_1^2 u\)</span> acts like a restoring force — if Uranus is pulled outward (<span class="math inline">\(u &gt; 0\)</span>), gravity pulls it back. - The second equation describes how the tangential perturbation <span class="math inline">\(v\)</span> evolves. The terms <span class="math inline">\(2\omega_1\dot{u}\)</span> are Coriolis-like terms that arise naturally because the equations are expressed in a rotating polar coordinate system. These terms describe the coupling between the radial and tangential perturbations rather than a separate physical force acting on Uranus. These equations were the key to everything. If astronomers could solve for <span class="math inline">\(u\)</span> and <span class="math inline">\(v\)</span>, they would know exactly how the unknown planet was pulling Uranus off its path.</p>
 </section>
-<section id="finding-the-dominant-term" class="level1" data-number="8">
-<h1 data-number="8"><span class="header-section-number">8</span> Finding the Dominant Term</h1>
+<section id="finding-the-dominant-term" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Finding the Dominant Term</h1>
 <p><strong>Simple Introduction:</strong> Fourier Series Expansion</p>
 <p>A Fourier series represents a periodic function as an infinite sum of sine and cosine functions, repeating function <span class="math inline">\(f(t)\)</span> with a fundamental frequency <span class="math inline">\(\omega\)</span> into an infinite sum of harmonically related sine and cosine waves. The general expansion is given by:</p>
 <p><span class="math display">\[
@@ -537,8 +550,8 @@ F(\tau)=a_{0}+\sum_{n=1}^{\infty}\left(a_{n}\cos(n\omega\tau)+b_{n}\sin(n\omega\
 \]</span></p>
 <p>where <span class="math inline">\(a_n\)</span> and <span class="math inline">\(b_n\)</span> are the Fourier coefficients determined from the observational data. Since this report focuses on demonstrating the calculus involved rather than reproducing the complete historical analysis carried out by Adams and Le Verrier, only the general Fourier series formulation is presented. In the following analysis, a single harmonic component is considered to illustrate how periodic gravitational perturbations influence Uranus’s orbit while keeping the mathematics suitable for a Calculus II level.</p>
 </section>
-<section id="solving-for-the-perturbation" class="level1" data-number="9">
-<h1 data-number="9"><span class="header-section-number">9</span> Solving for the Perturbation</h1>
+<section id="solving-for-the-perturbation" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> Solving for the Perturbation</h1>
 <p><strong>Simple Introduction:</strong> Cramer’s Rule for Linear Systems</p>
 <p>Cramer’s rule is an explicit formula for solving a system of linear equations using determinants. Given a <span class="math inline">\(2 \times 2\)</span> linear system expressed in matrix form as <span class="math inline">\(A\mathbf{x} = \mathbf{b}\)</span>:</p>
 <p><span class="math display">\[
@@ -588,8 +601,8 @@ v_2 = \frac{(-4\omega^2 - 3\omega_1^2)b_2 + 4\omega_1\omega a_2}{4\omega^2(4\ome
 \]</span></p>
 <p>where <span class="math inline">\(\gamma\)</span> denotes the amplitude of the angular perturbation.</p>
 </section>
-<section id="the-complete-model" class="level1" data-number="10">
-<h1 data-number="10"><span class="header-section-number">10</span> The Complete Model</h1>
+<section id="the-complete-model" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> The Complete Model</h1>
 <p>The full solution includes terms from the unperturbed orbit (the homogeneous solution of the differential equation). Adding these gives:</p>
 <p><span class="math display">\[
 \Delta\phi(\tau) = -\gamma\sin(2\omega\tau) + \beta_1\omega\tau + \beta_2 + \beta_3\sin(\omega_1\tau) + \beta_4\cos(\omega_1\tau)
@@ -612,8 +625,8 @@ v_2 = \frac{(-4\omega^2 - 3\omega_1^2)b_2 + 4\omega_1\omega a_2}{4\omega^2(4\ome
 <p>Since this report focuses on the calculus involved in the discovery of Neptune rather than reproducing the complete historical data analysis, the numerical estimation of these parameters is not carried out.</p>
 <p>The resulting model demonstrates how Taylor series, ordinary differential equations, Fourier series, and least squares can be combined to describe the periodic deviations in Uranus’s orbit.</p>
 </section>
-<section id="the-discovery" class="level1" data-number="11">
-<h1 data-number="11"><span class="header-section-number">11</span> The Discovery</h1>
+<section id="the-discovery" class="level1" data-number="12">
+<h1 data-number="12"><span class="header-section-number">12</span> The Discovery</h1>
 <p>From the perturbation model, astronomers estimated the position and approximate orbital characteristics of the unknown planet. [Space Engine, 2019]</p>
 <p><img src="images/cal_2.png" class="img-fluid" style="width:70.0%"></p>
 <p>On September 23, 1846, Johann Galle received a letter from Urbain Le Verrier with the predicted coordinates. That night, he pointed his telescope to that location.</p>
@@ -621,8 +634,8 @@ v_2 = \frac{(-4\omega^2 - 3\omega_1^2)b_2 + 4\omega_1\omega a_2}{4\omega^2(4\ome
 <p>It was within one degree of the predicted position.</p>
 <p>Neptune had been found.</p>
 </section>
-<section id="conclusion-the-power-of-calculus" class="level1" data-number="12">
-<h1 data-number="12"><span class="header-section-number">12</span> Conclusion: The Power of Calculus</h1>
+<section id="conclusion-the-power-of-calculus" class="level1" data-number="13">
+<h1 data-number="13"><span class="header-section-number">13</span> Conclusion: The Power of Calculus</h1>
 <p>Calculus transformed tiny deviations in Uranus’s orbit into the discovery of a new world. The subsequent telescopic observation confirmed the prediction obtained from the mathematical analysis.</p>
 <p>The combination of Newtonian gravitation, astronomical observations, and calculus enabled astronomers to predict the existence and approximate location of a previously unknown planet before it was observed.</p>
 
