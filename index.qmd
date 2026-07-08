@@ -144,6 +144,28 @@ When they compared this predicted position with telescope observations, they fou
 
 Something was definitely pulling Uranus off its expected path. But to find the puller, astronomers needed to know not just where Uranus was, but how fast it was moving and how that speed was changing. That meant velocity and acceleration. That meant calculus.
 
+## 🌌 Explore the Real Solar System
+
+The model above is simplified for Calculus II.  
+If you want to explore the actual Solar System interactively, try NASA's 3D Solar System model below.
+
+```{=html}
+<iframe
+  src="https://eyes.nasa.gov/apps/solar-system/#/?embed=true"
+  width="100%"
+  height="700"
+  style="border:none; border-radius:18px;"
+  allowfullscreen>
+</iframe>
+```
+
+::: {.callout-note}
+## Try This
+
+Use the NASA model to compare the motion of Uranus and Neptune.  
+Notice how slowly Neptune moves compared with Uranus.
+:::
+
 # Calculus Enters the Story
 
 Newton's second law says $F = ma$ — force equals mass times acceleration. To find the unknown force pulling on Uranus, astronomers needed acceleration. But they only had position.
