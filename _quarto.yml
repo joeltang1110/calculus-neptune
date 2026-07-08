@@ -2,17 +2,30 @@ project:
   type: website
 
 website:
-  title: "The Calculus of Neptune"
+
   navbar:
+
+    logo: images/logo.png
+
     left:
-      - href: index.qmd
-        text: Home
+
+      - text: Home
+        href: index.qmd
+
+      - text: Story
+        href: "#introduction"
+
+      - text: NASA Orrery
+        href: https://eyes.nasa.gov/apps/orrery/#/home
+
+      - text: GitHub
+        href: https://github.com/joeltang1110/calculus-neptune
 
 format:
   html:
-    theme: cosmo
+    theme: cyborg
     toc: true
-    toc-depth: 3
     number-sections: true
-    smooth-scroll: true
     css: styles.css
+
+    

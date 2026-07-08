@@ -1,26 +1,34 @@
 ---
-title: "The Calculus of Neptune: A Mathematical Detective Story"
-author: "Joel Tang Yi Xian, Yeong Zhi Perng，Ngae Kie Siong"
+title: ""
+author: ""
+
 format:
   html:
     toc: true
-    toc-depth: 3
+    toc-location: left
     number-sections: true
     theme: cosmo
-    smooth-scroll: true
-    code-fold: false
-execute:
-  echo: false
+    title-block-banner: false
+    page-layout: full
+    css: styles.css
 ---
+
 ::: {.hero}
-🌌 The Calculus of Neptune
 
-A Mathematical Detective Story
+```{=html}
+<h1>The Calculus of Neptune</h1>
+<h2>A Mathematical Detective Story</h2>
 
-**Can mathematics discover a planet before anyone sees it?**
+<p><strong>Joel Tang Yi Xian · Yeong Zhi Perng · Ngae Kie Siong</strong></p>
 
-*Neptune: the planet discovered with the tip of a pen.*
+<h3>Can mathematics discover a planet before anyone sees it?</h3>
+
+<p><em>Using calculus to uncover an invisible world.</em></p>
+
+<div class="scroll-down">↓ Scroll to Begin</div>
+```
 :::
+
 
 ::: {.callout-note title="Abstract"}
 This paper retraces the mathematical journey that led to the discovery of Neptune in 1846. Starting from unexplained deviations in Uranus's orbit, we follow the steps astronomers took to quantify the discrepancy, describe planetary motion using parametric equations, and apply calculus to uncover the presence of an unseen world. Through differentiation, Taylor series, and differential equations, we show how mathematics transformed tiny observational anomalies into the prediction of a new planet.
