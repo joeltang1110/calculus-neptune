@@ -13,9 +13,9 @@ execute:
   echo: false
 ---
 ::: {.hero}
-# 🌌 The Calculus of Neptune
+🌌 The Calculus of Neptune
 
-## A Mathematical Detective Story
+A Mathematical Detective Story
 
 **Can mathematics discover a planet before anyone sees it?**
 
